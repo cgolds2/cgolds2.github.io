@@ -1,0 +1,526 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"P",
+				"Patient"
+			],
+			[
+				"d",
+				"Dnum"
+			],
+			[
+				"col",
+				"col-sm"
+			],
+			[
+				"tota",
+				"totalSize"
+			],
+			[
+				"FS_",
+				"FS_FILE_NOT_FOUND"
+			],
+			[
+				"maxle",
+				"maxlen"
+			],
+			[
+				"ma",
+				"maxlen"
+			],
+			[
+				"zero",
+				"zeroBuf"
+			],
+			[
+				"nex",
+				"nextPtr"
+			],
+			[
+				"R",
+				"READ_ONLY"
+			],
+			[
+				"block",
+				"blockToRead"
+			],
+			[
+				"fs",
+				"FS_NONE"
+			],
+			[
+				"get",
+				"getNextBlock"
+			],
+			[
+				"fse",
+				"FS_NONE"
+			],
+			[
+				"FS_O",
+				"FS_OUT_OF_SPACE"
+			],
+			[
+				"poin",
+				"pointerNum"
+			],
+			[
+				"poi",
+				"pointerNum"
+			],
+			[
+				"prin",
+				"printf\tprintf …"
+			],
+			[
+				"print",
+				"printBitArray"
+			],
+			[
+				"rest",
+				"rest"
+			],
+			[
+				"FS_Op",
+				"FS_FILE_OPEN"
+			],
+			[
+				"fi",
+				"file_exists"
+			],
+			[
+				"FS",
+				"fserror"
+			],
+			[
+				"FS_File",
+				"FS_FILE_ALREADY_EXISTS"
+			],
+			[
+				"FS_F",
+				"FS_FILE_NOT_FOUND"
+			],
+			[
+				"start",
+				"startPos"
+			],
+			[
+				"num",
+				"numbytes"
+			],
+			[
+				"by",
+				"bytepos"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"interna",
+				"internalNum"
+			],
+			[
+				"onk",
+				"onkeyup\tAttr"
+			],
+			[
+				"on",
+				"onkeypress\tAttr"
+			],
+			[
+				"onK",
+				"onkeyup\tAttr"
+			],
+			[
+				"sear",
+				"searchString"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"current",
+				"currentPointer"
+			],
+			[
+				"getIndire",
+				"getIndirectArray"
+			],
+			[
+				"curre",
+				"currentPointer"
+			],
+			[
+				"v",
+				"void"
+			],
+			[
+				"software",
+				"softwaredisk"
+			],
+			[
+				"key",
+				"keys"
+			],
+			[
+				"pri",
+				"printf\tprintf …"
+			],
+			[
+				"ei",
+				"eigvec"
+			],
+			[
+				"sample",
+				"sample5af"
+			],
+			[
+				"line",
+				"line1y"
+			],
+			[
+				"_he",
+				"_headNode"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2180,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/connorgoldsmith/cgolds2.github.io"
+	],
+	"file_history":
+	[
+		"/Users/connorgoldsmith/ThePetDatabase/Website/pawprints.html",
+		"/Users/connorgoldsmith/Dropbox/Website_Tests/First_Test/bootstrapStyle.css",
+		"/Users/connorgoldsmith/Google Drive/Semester 04/CSC 3501/myTest.c",
+		"/Users/connorgoldsmith/Google Drive/Semester 04/CSC 3501/asg4.c",
+		"/Users/connorgoldsmith/Google Drive/Semester 04/CSC 3501/asg5NotContig.S",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/testfs2.c",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/test_fs.sh",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/filesystem.c",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/testfs0.c",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/testfs3.c",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/softwaredisk.c",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/softwaredisk.h",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/formatfs.c",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/formatfs",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/testfs1.c",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/testfs0",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/testfs4a.c",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/testfs4b.c",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/test",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/testfs1",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/README.md",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/filesystem.h",
+		"/Users/connorgoldsmith/ThePetDatabase/Website/pet-page.html",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/LSUclass/sdprivate.sd",
+		"/Volumes/UDISK/prints/spam_udp.py",
+		"/Volumes/UDISK/prints/open_udp.py",
+		"/Volumes/UDISK/prints/dynamic.py",
+		"/Users/connorgoldsmith/ThePetDatabase/Website/testHTML.html",
+		"/Users/connorgoldsmith/Downloads/prog3.test 2/test.scm",
+		"/Users/connorgoldsmith/Downloads/prog3.test 2/undefine.scm",
+		"/Users/connorgoldsmith/Desktop/Concept/Total.txt",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4101/Prog3/prog3.test 3/runtests3",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/filesystem2.h",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/formatfs.c",
+		"/Users/connorgoldsmith/Downloads/prog3.test 2/ini.scm",
+		"/Users/connorgoldsmith/Downloads/prog3.test/test.scm",
+		"/Users/connorgoldsmith/Downloads/prog3.test/ini.scm",
+		"/Users/connorgoldsmith/Library/Application Support/Firefox/Profiles/t757re1s.default/prefs.js",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/filesystem/filesystem.h",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/prog2safe.c",
+		"/Users/connorgoldsmith/Downloads/prog2/Java/BuiltIn.java",
+		"/Users/connorgoldsmith/Dropbox/Semester 05/CSC 4103/prog2safe copy.c",
+		"/Users/connorgoldsmith/Downloads/Java 2/Node.java",
+		"/Users/connorgoldsmith/Downloads/Java 2/Regular.java",
+		"/Users/connorgoldsmith/Downloads/Java 2/Quote.java",
+		"/Users/connorgoldsmith/Downloads/Java 2/Special.java",
+		"/Users/connorgoldsmith/Dropbox/School Projects/CSC4101Proj1/src/Main.java",
+		"/Users/connorgoldsmith/Downloads/Cons.java",
+		"/Users/connorgoldsmith/Downloads/Quote.java",
+		"/Users/connorgoldsmith/Dropbox/School_Projects/CSC4101Proj1/runtests",
+		"/Users/connorgoldsmith/Dropbox/School Projects/CSC4101Proj1/src/Cons.java",
+		"/Users/connorgoldsmith/Downloads/test-2/runtests",
+		"/Users/connorgoldsmith/Downloads/Java/Node.java",
+		"/Users/connorgoldsmith/Downloads/test-2/Test1",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Foldered/LSU Places.kml",
+		"/Users/connorgoldsmith/Downloads/HW3/HW3_Main.java",
+		"/Users/connorgoldsmith/Downloads/maxFloat/maxFloat.S",
+		"/Users/connorgoldsmith/Downloads/maxFloat/tester.c",
+		"/Users/connorgoldsmith/Downloads/sumElements/sumElements.S",
+		"/Users/connorgoldsmith/Documents/groupProject01/packages/Xamarin.Forms.2.3.4.231/build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets",
+		"/Users/connorgoldsmith/Downloads/xamarin_uninstall.sh",
+		"/Users/connorgoldsmith/groupProject01Temp/groupProject01/groupProject01/Home/MainPage.xaml",
+		"/Users/connorgoldsmith/groupProject01/groupProject01/groupProject01/Calendars/CalendarPage.xaml",
+		"/Users/connorgoldsmith/groupProject01/groupProject01/groupProject01/Lists/ListsPage.xaml",
+		"/Users/connorgoldsmith/groupProject01/groupProject01/groupProject01/Calendars/EventPage.xaml",
+		"/Users/connorgoldsmith/groupProject01/groupProject01/groupProject01/Lists/ListItemDetail.xaml",
+		"/Users/connorgoldsmith/groupProject01/groupProject01/groupProject01/Lists/ListItemPage.xaml",
+		"/Users/connorgoldsmith/groupProject01/groupProject01/groupProject01/Home/MainPage.xaml",
+		"/Users/connorgoldsmith/groupProject01/groupProject01/groupProject01/Other/CustomFormBase.xaml",
+		"/Users/connorgoldsmith/Downloads/Schedule (1).csmo",
+		"/Users/connorgoldsmith/Dropbox/Semester 04/CSC 3501/asg5NotContig.S",
+		"/Users/connorgoldsmith/Desktop/Workbook1.xml",
+		"/Users/connorgoldsmith/Downloads/DemoGraph.java",
+		"/Users/connorgoldsmith/Downloads/Modelv/DisplayAlarm1UIController.java",
+		"/Users/connorgoldsmith/Downloads/Modelv/DisplayAlarm1UI.java",
+		"/Users/connorgoldsmith/Downloads/Modelv/DisplayAlarm1.java",
+		"/Users/connorgoldsmith/Dropbox/School Projects/3380HW3/src/A.java",
+		"/Users/connorgoldsmith/Dropbox/Semester 04/CSC 3501/asg4Safe.c",
+		"/Users/connorgoldsmith/Dropbox/Semester 04/CSC 3501/asg4.c",
+		"/Users/connorgoldsmith/Downloads/jj.jpg",
+		"/Users/connorgoldsmith/Dropbox/School Projects/3380HW3/src/crazyMethod.java",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Sorted/All.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/All Parking Lots.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/All.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Buildings.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Other.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/X Lot.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Zone 1.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Zone 3.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Zone 4.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Zone B.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Zone C.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Sorted/Zone 2.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Sorted/Zone C.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Sorted/Zone B.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Sorted/Zone 4.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Sorted/Zone 3.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Sorted/Zone 1.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Sorted/X Lot.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Sorted/Points of Interest.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Sorted/Other.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Sorted/Buildings.kml",
+		"/Users/connorgoldsmith/Dropbox/Merged Colored/Non foldered/Sorted/All Parking Lots.kml",
+		"/Users/connorgoldsmith/Downloads/XMLVersion.xml",
+		"/Users/connorgoldsmith/Downloads/2-Spring 2017 14th Class Day Class Profile_High School Archbishop Chapelle H S.xml",
+		"/Users/connorgoldsmith/Music/iTunes/iTunes Media/Mobile Applications/LSU Shield 1.19/Payload/secure360.app/Info.plist",
+		"/Users/connorgoldsmith/Music/iTunes/iTunes Media/Mobile Applications/LSUsports 5.3/Payload/4200 - Duke.app/Info.plist",
+		"/Users/connorgoldsmith/Music/iTunes/iTunes Media/Mobile Applications/Rewards 3.6.0/Payload/Rewards.app/Info.plist",
+		"/Users/connorgoldsmith/Music/iTunes/iTunes Media/Mobile Applications/Tapingo 5020/Payload/Tapingo.app/Info.plist",
+		"/Users/connorgoldsmith/Music/iTunes/iTunes Media/Mobile Applications/Uber 3.225.3/Payload/Helix.app/Info.plist",
+		"/Users/connorgoldsmith/Downloads/Spring 2017 14th Class Day Class Profile_High School Archbishop Chapelle H S.xml",
+		"/Users/connorgoldsmith/Dropbox/Semester 04/CSC 3501/asg2",
+		"/Users/connorgoldsmith/Dropbox/School Projects/3380HW3/src/HW3_Main.java",
+		"/Users/connorgoldsmith/Dropbox/Semester 04/CSC 2262/Sample7a.m",
+		"/Users/connorgoldsmith/groupProject01/groupProject01/groupProject01/MainPage.xaml.cs",
+		"/Users/connorgoldsmith/Dropbox/School Projects/3380HW3/src/ReadMe.txt",
+		"/Users/connorgoldsmith/Downloads/src/ArrayListDemo.java",
+		"/Users/connorgoldsmith/Dropbox/Semester 04/CSC 3501/myTest.c",
+		"/Users/connorgoldsmith/Dropbox/Semester 04/CSC 3501/myFile.S",
+		"/Users/connorgoldsmith/Downloads/ret42/tst.c",
+		"/Users/connorgoldsmith/Dropbox/Semester 04/CSC 3380/Homework/asg2",
+		"/Users/connorgoldsmith/Dropbox/ahhhhhh.txt",
+		"/Users/connorgoldsmith/Downloads/ret42/ret42.S",
+		"/Users/connorgoldsmith/Downloads/strlen/mystrlenC.c",
+		"/Users/connorgoldsmith/Dropbox/School Projects/3380HW3/src/HW3_Main2_golf.java",
+		"/Users/connorgoldsmith/Dropbox/Semester 04/CSC 2262/Sample6b.m",
+		"/Users/connorgoldsmith/Dropbox/Semester 04/CSC 2262/Sample6a.m",
+		"/Users/connorgoldsmith/Dropbox/Semester 04/CSC 3380/testHW"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 187.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "webpage.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 315.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
