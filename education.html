@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <link href="index.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
 
 <body class="text-center">
   <div class="container d-flex h-100 p-3 mx-auto flex-column">
@@ -23,14 +23,14 @@
       
     </main>
 
-        <footer class="mastfoot mt-auto" id="footerTemplate"></footer>
+    <footer class="mastfoot mt-auto" id="footerTemplate"></footer>
 
   </div>
-    </body>
+</body>
 
 
 
-    <script>
+<script>
       //This script allows me to have one header and footer for every page
       function loadPage(href)
       {
@@ -41,7 +41,7 @@
       }
       document.getElementById('headerTemplate').innerHTML = loadPage("header.html")
       //Change by the page currently on
-       document.getElementById('Education').className += " active"
+      document.getElementById('Education').className += " active"
 
       document.getElementById('footerTemplate').innerHTML = loadPage("footer.html")
     </script>

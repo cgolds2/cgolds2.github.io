@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+<link href="header.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+
+<link href="index.css" rel="stylesheet">
+
+<body class="text-center">
+	<div class="container d-flex h-100 p-3 mx-auto flex-column">
+
+		<header id="headerTemplate" class="masthead"></header>
+		<main role="main" class="inner cover">
+			<h1 class="cover-heading">Skills</h1>
+			<br>
+			<p class="lead text-left">
+
+			<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+				C#
+			</button>
+
+
+			<div class="collapse text-left" id="collapseExample" style=" border-bottom: 1px solid black; border-top: 1px solid black;">
+				<br>
+				Worked 3 summers as intern at company that primarily uses C# code.
+				<br>
+				<br>
+			</div>
+		</p>
+
+	</main>
+	<footer class="mastfoot mt-auto" id="footerTemplate"></footer>
+
+
+</div>
+
+</body>
+
+
+
+<script>
+      //This script allows me to have one header and footer for every page
+      function loadPage(href)
+      {
+      	var xmlhttp = new XMLHttpRequest();
+      	xmlhttp.open("GET", href, false);
+      	xmlhttp.send();
+      	return xmlhttp.responseText;
+      }
+      document.getElementById('headerTemplate').innerHTML = loadPage("header.html")
+      //Change by the page currently on
+      document.getElementById('Education').className += " active"
+      document.getElementById('footerTemplate').innerHTML = loadPage("footer.html")
+  </script>
+
+  </html>
