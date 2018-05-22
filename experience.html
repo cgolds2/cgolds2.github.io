@@ -10,7 +10,7 @@
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
 
-<link href="index.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet" data-spy="scroll">
 
 <body class="text-center">
 	<div class="container d-flex h-100 p-3 mx-auto flex-column">
@@ -19,26 +19,120 @@
 		<main role="main" class="inner cover">
 			<h1 class="cover-heading">Skills</h1>
 			<br>
-			<p class="lead text-left">
+			<div class="lead text-left">
+				<div>
+					Programming Languages
+					<br>
+					<a href="#csharp"  class="btn btn-primary">C#</a>
+					<a href="#java"  class="btn btn-primary">Java</a>
+					<a href="#vbnet"  class="btn btn-primary">VB.Net</a>
+					<a href="#c"  class="btn btn-primary">C</a>
+					<a href="#objc"  class="btn btn-primary">Objective C#</a>
+					<br>
+					<br>
+					Experience With
+					<br>
+					<a href="#sql"  class="btn btn-primary">SQL</a>
+					<a href="#git"  class="btn btn-primary">TFS</a>
+					<a href="#git"  class="btn btn-primary">GIT</a>
+					<a href="#xamarin"  class="btn btn-primary">Xamarin</a>
+					<a href="#html"  class="btn btn-primary">HTML</a>
+					<a href="#html"  class="btn btn-primary">Javascript</a>
+					<a href="#html"  class="btn btn-primary">CSS</a>
+					<a href="#rest"  class="btn btn-primary">REST APIs</a>
+					<br>
+					<br>
+					Other Skills
+					<br>
+					<ul style="font-size: 14px">
+						<li>
+							Regex
+						</li>
+						<li>
+							Visual Studios
+						</li>
+						<li>
+							Intermediate  understanding  of  Network  Management  and  Security
+						</li>
+						<li>
+							Familiar with OSX, Windows, and Linux Operating Systems
+						</li>
+					</ul>
 
-			<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-				C#
-			</button>
+				</div>
+				<div>
+					<h2 class="cover-heading text-center">Details</h1>
 
-
-			<div class="collapse text-left" id="collapseExample" style=" border-bottom: 1px solid black; border-top: 1px solid black;">
-				<br>
-				Worked 3 summers as intern at company that primarily uses C# code.
-				<br>
-				<br>
-			</div>
-		</p>
-
-	</main>
-	<footer class="mastfoot mt-auto" id="footerTemplate"></footer>
-
-
+					<div id="csharp"  style="font-size: 14px; border-bottom: 1px solid black; border-top: 1px solid black;">
+						<H2>C#</H3>
+						Worked 3 summers as intern at company that primarily uses C# code.
+						<br>
+						<br>
+					</div>
+<div id="java"  style="font-size: 14px; border-bottom: 1px solid black;">
+	<H3>Java</H3>
+	Text Here
+	<br>
+	<br>
 </div>
+<div id="vbnet"  style="font-size: 14px; border-bottom: 1px solid black;">
+	<H3>VB.Net</H3>
+	Text Here
+	<br>
+	<br>
+</div>
+<div id="c"  style="font-size: 14px; border-bottom: 1px solid black;">
+	<H3>C</H3>
+	Text Here
+	<br>
+	<br>
+</div>
+<div id="objc"  style="font-size: 14px; border-bottom: 1px solid black;">
+	<H3>Objective C#</H3>
+	Text Here
+	<br>
+	<br>
+</div>
+<div id="sql"  style="font-size: 14px; border-bottom: 1px solid black;">
+	<H3>SQL</H3>
+	Text Here
+	<br>
+	<br>
+</div>
+<div id="git"  style="font-size: 14px; border-bottom: 1px solid black;">
+	<H3>TFS & GIT</H3>
+	Text Here
+	<br>
+	<br>
+</div>
+<div id="xamarin"  style="font-size: 14px; border-bottom: 1px solid black;">
+	<H3>Xamarin</H3>
+	Text Here
+	<br>
+	<br>
+</div>
+<div id="html"  style="font-size: 14px; border-bottom: 1px solid black;">
+	<H3>HTML, JS, & CSS</H3>
+	Text Here
+	<br>
+	<br>
+</div>
+<div id="rest"  style="font-size: 14px; border-bottom: 1px solid black;">
+	<H3>REST APIs</H3>
+	Text Here
+	<br>
+	<br>
+</div>
+
+				</div>
+
+
+			</div>
+		</main>
+		<footer class="mastfoot mt-auto" id="footerTemplate"></footer>
+
+
+	</div>
 
 </body>
 
@@ -55,7 +149,7 @@
       }
       document.getElementById('headerTemplate').innerHTML = loadPage("header.html")
       //Change by the page currently on
-      document.getElementById('Education').className += " active"
+      document.getElementById('Experience').className += " active"
       document.getElementById('footerTemplate').innerHTML = loadPage("footer.html")
   </script>
 
