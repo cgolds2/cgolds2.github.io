@@ -18,6 +18,16 @@ a:hover {
   /*background-color: #fff;*/
   border: .05rem solid #fff;
 }
+
+.btn-default{
+  background-color: transparent !important;
+  color:black !important;
+}
+.btn-default:hover{
+  background-color: #337ab7 !important;
+  color: white !important;
+
+}
 */
 
 /*
