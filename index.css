@@ -107,3 +107,27 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, 1);
 }
+
+.clear-left {
+  clear: left
+}
+.clear-right {
+  clear: right
+}
+/*ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}*/
+/*li {
+  padding: 10px;
+  border: 1px solid #aaa;
+  background: rgba(0, 0, 0, 0.07);
+  list-style-type: none;
+}
+.block-1 {
+  background: rgba(0, 0, 0, 0.05);
+}
+.block-2 {
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.05);
+}*/
