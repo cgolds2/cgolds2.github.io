@@ -5,45 +5,79 @@
 <body class="text-center">
   <div class="container d-flex h-100 p-3 mx-auto flex-column">
 
-    <header id="headerTemplate" class="masthead"></header>
+    <header id="headerTemplate" class="masthead">
+      <title>Connor Goldsmith</title>
+      <meta content="utf-8" http-equiv="encoding">
+      <link href="header.css" rel="stylesheet">
+
+      <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.10.1/bootstrap-social.css" rel="stylesheet" >
+
+      <div class="inner">
+        <h1 class="masthead-brand">Connor Goldsmith</h1>
+        <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link" id="Home" href="index.html">Home</a>
+          <a class="nav-link active" id = "Education" href="education.html">Education</a>
+          <a class="nav-link" id = "Experience" href="experience.html">Experience</a>
+          <a class="nav-link" id = "Resume" href="https://www.dropbox.com/s/3t70tijzi0qymlr/Connor%20Goldsmith.pdf?dl=0">Resume</a>
+          <a class="nav-link" id = "Contact" href="contact.html">Contact</a>
+
+        </nav>
+      </div>
+    </header>
     <main role="main" class="inner cover">
       <h1 class="cover-heading">Education</h1>
       <br>
       <p class="lead text-left">
-        &emsp;I am currently studying at Louisiana State University as a Computer Science Major, Software Engineering discipline, and have a GPA of 3.8.  <br><br>
+        &emsp;I am currently studying at Louisiana State University as a Computer Science Major, Software Engineering discipline, and have a GPA of 3.86 (3.97 in CSC classes).  <br><br>
         &emsp;I began studying in August of 2015 and have an expected graduation date of March 2019.  I have taken many Computer Science courses including but not limited to:
 
       </p>
-      <ul class="lead text-left">
-        <li>Advanced Data Structures and Algorithims</li>
-        <li>Computer Organization and Design</li>
-        <li>Object Oriented Design</li>
-        <li>Operating Systems</li>
-      </ul>
-      
+      <div class="container" style="margin-left: 25px !important; margin-right: 25px !important">
+        <ul class="col-sm-12 col-md-8 col-lg-6 lead text-left"">
+          <H3>Core</H3>
+          <li>Advanced Data Structures and Algorithims</li>
+          <li>Computer Organization and Design</li>
+          <li>Database Systems</li>
+          <li>Discrete Structures</li>
+          <li>Object Oriented Design</li>
+          <li>Operating Systems</li>
+          <li>Programming Languages</li>
+          <li>Software Systems Development</li>
+        </ul>
+        <ul class="col-sm-12 col-md-6 col-lg-6 lead text-left"> 
+          <H3>Electives</H3>
+          <li>Artificial Intelligence (In Progress)</li>
+          <li>Compiler Optimization and Construction (In Progress)</li>
+          <li>Memory Forensics (In Progress)</li>
+          <li>Multicore Programming (In Progress)</li>
+          <li>Reverse Engineering of Malware (Spring 2018)</li>
+          <li>Systems Programming (In Progress)</li>
+        </ul>
+      </div>
+      <br>
     </main>
+    <footer class="mastfoot mt-auto" id="footerTemplate">
 
-    <footer class="mastfoot mt-auto" id="footerTemplate"></footer>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+      <div>
+        <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/connor-goldsmith-52444013b"><span class="fa fa-linkedin"></span></a>
+        <a class="btn btn-social-icon btn-github" href="https://github.com/cgolds2"><span class="fa fa-github"></span></a>
+        <a class="btn btn-social-icon btn-github"  href="mailto:cgolds2@lsu.edu"><span class="fa fa-envelope"> </span></a>
+
+
+      </div>
+
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+    </footer>
   </div>
 </body>
 
-
-
-<script>
-      //This script allows me to have one header and footer for every page
-      function loadPage(href)
-      {
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.open("GET", href, false);
-        xmlhttp.send();
-        return xmlhttp.responseText;
-      }
-      document.getElementById('headerTemplate').innerHTML = loadPage("header.html")
-      //Change by the page currently on
-      document.getElementById('Education').className += " active"
-
-      document.getElementById('footerTemplate').innerHTML = loadPage("footer.html")
-    </script>
-
-    </html>
+</html>
