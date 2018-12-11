@@ -9,6 +9,8 @@
 
 
 <link href="index.css" rel="stylesheet" data-spy="scroll">
+<link href="projects.css" rel="stylesheet" data-spy="scroll">
+
 <body class="text-center">
 	<div class="container d-flex h-100 p-3 mx-auto flex-column">
 
@@ -65,6 +67,11 @@
 							<br><br>
 							Volkey is a Volitility plugin that we created in order to assist memory forensic analysis.  Volitility is a python program that can run many operations on memory images, operations such as finding the running processes or looking at virtual memory.  Our plugin runs on Linux (Ubuntu 16.04) images and will escalate the running bash shells to root.  This is done by finding the process, where the corresponding user information lies in memory, and changing the applicable values to that of a root user.  From there, the person doing the analysis can have full control of the machine and make themselves persistent root if they so choose.
 							<br><br>
+							<div class="container">
+								<img src="images/volkey.png" style=""class="img-responsive thumbnail"> 
+							</div>
+							
+							<br>
 							This project was made for CSC 7360, Memory Forensics, at Louisiana State University during my senior year.
 
 							<br>
@@ -78,6 +85,10 @@
 							Pentago is an abstract strategy game for two players with four 3×3 grids arranged into a larger 6×6 grid. This game re-implements the well-known Connect 4 with a twist: After placing a marble, the player has to twist one of the grids by 90°, thus changing the board after every move.<br>
 							Our project was 3 fold.  First, we implemented pentago as a command-line game.  Next we designed a manual heuristic that could play against human players.  Finally we designed a Neural Network that could have a stronger win percentage than the Neural Network.  
 							<br><br>
+							<div class="container">
+								<img src="images/pentago.png" style=""class="img-responsive thumbnail"> 
+							</div>
+							<br>
 							This project was made for CSC 4444, Artificial Intelligence, at Louisiana State University during my senior year.
 
 							<br>
@@ -116,8 +127,10 @@
 							This project was designed to be a multi-platform mobile app that works as a tool to organize activites and duties in apartments. We used the Cross-platform framework Xamarin in order to devleop this app.
 							<br>
 							<br>
+							<div class="container">
+								<img src="images/quabble.png" style=""class="img-responsive thumbnail"> 
+							</div><br>
 							This project was made for CSC 3380, Object Oriented Design at Louisiana State University during my sophomore year.
-
 							<br>
 							<br>
 						</div>
@@ -127,68 +140,114 @@
 							<br>
 							PawPrints is a shelter management system that aids animal shelters in organizing and maintaining their information. The system is composed of three parts: a database, a desktop app, and a website. These three parts combine to create a flexible, organized system that allows shelters to easily engineer a system tailored to their unique needs. While other systems that provide similar functionality exist, PawPrints stands apart in terms of user friendliness and flexibility.
 							<br><br>
-							<img src="images/pawprints.png" style="max-width:600px"class="img-responsive thumbnail"> 
-							<br>
+							<div class="container">
+								<img src="images/pawprints.png" style=""class="img-responsive thumbnail"> 
+							</div>
+							
 							<br>
 							This project was made for CSC 4330, Software Systems at Louisiana State University during my sophomore year.
 							<br>
 							<br>
 						</div>
-						<div id="inode"  style="font-size: 14px; border-bottom: 1px solid black;">
-							<H3>iNode File System</H3>
-							<i>The source code for this project is being withheld to avoid any potential cheating by students taking the class at a later date, however it can be provided upon request.</i>
-							<br>
-							The Linux OS uses the EXT file systems as its primary method of data storage.  This project aims to implement an example iNode filesystem based off a software disk that is simulated in memory.
-							<br>
-							<br>
-							This project was made for CSC 4103, Operating Systems, at Louisiana State University during my junior year.
-							<br>
-							<br>
-						</div>
-						<div id="queue"  style="font-size: 14px; border-bottom: 1px solid black;">
-							<H3>MLFQ Scheduler</H3>
-							<i>The source code for this project is being withheld to avoid any potential cheating by students taking the class at a later date, however it can be provided upon request.</i>
-							<br>
-							This project aims to implement an example multilevel feedback queue process scheduler.
-							<br>
-							<br>
-							This project was made for CSC 4103, Operating Systems, at Louisiana State University during my junior year.
-							<br>
-							<br>
-						</div>
 						<div id="res"  style="font-size: 14px; border-bottom: 1px solid black;">
-							<H3>Duck-Hunt Port</H3>
-							<!-- <a href="https://github.com/cgolds2/DuckHuntInJava">Github Link</a> -->
-							<i>While this project was made for purely educational purposes, the source code is withheld to avoid any possible copyright infringement</i>
-							<br>
-							This project is a recreation of the popular Nintendo game Duck Hunt using a Java graphics library that was assigned to us by our professor.
-							<br>
-							<br>
-							This project was made for CSC 1351, Intro to CSC II at Louisiana State University during my freshman year.
-							<br>
-							<br>
+							<H3>Database CTF</H3>
+							<!-- <a href="https://github.com/cgolds2/ThePetDatabase">Github Link</a>
+								<br> -->
+								This project is follows the "Capture the Flag" model that many security conventions will use so that teams can complete challanges.  However, this project was made for our databases class, so instead of cybersecurity questions, the database is full of SQL and Database ones
+								<br><br>
+								<div class="container">
+									<img src="images/sqlctf.png" style=""class="img-responsive thumbnail"> 
+								</div>
+
+								<br>
+								This project was made for CSC 4402, Introduction to Database Management Systems, at Louisiana State University during my junior year.
+								<br>
+								<br>
+							</div>
+							<div id="inode"  style="font-size: 14px; border-bottom: 1px solid black;">
+								<H3>iNode File System</H3>
+								<i>The source code for this project is being withheld to avoid any potential cheating by students taking the class at a later date, however it can be provided upon request.</i>
+								<br><br>
+								The Linux OS uses the EXT file systems as its primary method of data storage.  This project aims to implement an example iNode filesystem based off a software disk that is simulated in memory.
+								<br>
+								<br>
+								This project was made for CSC 4103, Operating Systems, at Louisiana State University during my junior year.
+								<br>
+								<br>
+							</div>
+							<div id="queue"  style="font-size: 14px; border-bottom: 1px solid black;">
+								<H3>MLFQ Scheduler</H3>
+								<i>The source code for this project is being withheld to avoid any potential cheating by students taking the class at a later date, however it can be provided upon request.</i>
+								<br><br>
+								This project aims to implement an example multilevel feedback queue process scheduler.
+								<br>
+								<br>
+								This project was made for CSC 4103, Operating Systems, at Louisiana State University during my junior year.
+								<br>
+								<br>
+							</div>
+							<div id="res"  style="font-size: 14px; border-bottom: 1px solid black;">
+								<H3>Duck-Hunt Port</H3>
+								<!-- <a href="https://github.com/cgolds2/DuckHuntInJava">Github Link</a> -->
+								<i>While this project was made for purely educational purposes, the source code is withheld to avoid any possible copyright infringement</i>
+								<br><br>
+								This project is a recreation of the popular Nintendo game Duck Hunt using a Java graphics library that was assigned to us by our professor.
+								<br>
+								<br>
+								<div class="row">
+									<div class="column">
+										<img src="images/DuckHuntTitle.png" alt="title" style="max-height:400px" class="img-responsive thumbnail">
+									</div>
+									<div class="column">
+										<img src="images/DuckHuntGame.png" alt="game" style="max-height:400px" class="img-responsive thumbnail">
+									</div>
+								</div> 
+								This project was made for CSC 1351, Intro to CSC II at Louisiana State University during my freshman year.
+								<br>
+								<br>
+							</div>
+
+
 						</div>
+						<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+					</main>
+					<footer class="mastfoot mt-auto" id="footerTemplate">
+
+						<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+						<div>
+							<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/connor-goldsmith-52444013b"><span class="fa fa-linkedin"></span></a>
+							<a class="btn btn-social-icon btn-github" href="https://github.com/cgolds2"><span class="fa fa-github"></span></a>
+							<a class="btn btn-social-icon btn-github"  href="mailto:cgolds2@lsu.edu"><span class="fa fa-envelope"> </span></a>
 
 
-					</div>
-				</main>
-				<footer class="mastfoot mt-auto" id="footerTemplate">
+						</div>
+						<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
-					<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		document.getElementById("myBtn").style.display = "block";
+	} else {
+		document.getElementById("myBtn").style.display = "none";
+	}
+}
 
-					<div>
-						<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/connor-goldsmith-52444013b"><span class="fa fa-linkedin"></span></a>
-						<a class="btn btn-social-icon btn-github" href="https://github.com/cgolds2"><span class="fa fa-github"></span></a>
-						<a class="btn btn-social-icon btn-github"  href="mailto:cgolds2@lsu.edu"><span class="fa fa-envelope"> </span></a>
-
-
-					</div>
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
+}
+</script>
 
     <!-- Bootstrap core JavaScript
     	================================================== -->
     	<!-- Placed at the end of the document so the pages load faster -->
     	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     	<script src="bootstrap/js/bootstrap.min.js"></script>
+
     </footer>
 
 
