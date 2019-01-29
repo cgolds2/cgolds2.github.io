@@ -24,16 +24,3 @@ height: 500;
 }
 
 
-/*And then change */
-  .container .img-responsive {
-    display: block;
-    height: auto;
-    max-height: 500px;
-}  
-/*To */
-
-.container  .img-responsive {
-    display: block;
-    width: auto;
-    max-height: 500px;
-}
