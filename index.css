@@ -12,11 +12,11 @@ a:hover {
 
 
 /*And then change */
-.container .img-responsive {
+/*.container .img-responsive {
   display: block;
   height: auto;
   max-height: 500px;
-}  
+}  */
 /*To */
 
 .container  .img-responsive {
@@ -24,6 +24,12 @@ a:hover {
   width: auto;
   max-height: 500px;
 }
+.container  .img-responsiveRatio {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
 
 
 
